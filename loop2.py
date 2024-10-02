@@ -17,10 +17,12 @@
 #    print( j, end=" ")
 #    
    
-for line in range(1,6):
-   for i in range(-1*line+5):
-      print(".",end="")
-   print()
-      
+# for line in range(1,6):
+#    for i in range(-1*line+5):
+#       print(".",end="")
+#    print()
+#       
    
-   
+for i in range(1,6):
+   print(5*i-2,end=" ")
+     

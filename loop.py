@@ -1,7 +1,7 @@
 HEIGHT=8
 WIDTH=16
  
- def main():
+  def main():
     draw_box()
  
  def draw_box():
