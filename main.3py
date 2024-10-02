@@ -1,0 +1,51 @@
+# def main():
+#    egg()
+#    tea_cup()
+#    stop_sign()
+#    hat()
+# 
+# 
+# 
+# def egg():
+#    top()
+#    bottom()
+#    print() 
+#       
+# def tea_cup():  
+#    bottom()
+#    line()
+#    print() 
+#  
+#    
+# def stop_sign():   
+#    top()
+#    print("|  STOP   |")
+#    bottom() 
+#    print()  
+#    
+# def hat():   
+#    top()
+#    line()
+#    print() 
+#    
+# def top():
+#     print("  ______")
+#    print(" /       \\")
+#    print("/         \\")
+# 
+# def hat():
+#    print("   ______")
+#    print(" /       \\")
+#    print("/         \\")
+# 
+# def bottom():
+#    print("\\        /")
+#    print(" \\______/")
+#    print()
+# 
+# def line():
+# print("+--------+")
+# 
+# 
+# main()
+# 
