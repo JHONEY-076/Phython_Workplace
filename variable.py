@@ -9,4 +9,4 @@ def print_design():
 print_design()
 
 
-print("1" + str(2) + str(3) + "4" + str(5 * 6) + "7" + str(8 + 9))
+print(str(9 + 9) + "9 + 9" + str(9) + str(9))
