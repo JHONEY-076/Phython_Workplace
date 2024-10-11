@@ -77,10 +77,7 @@ def draw_line():
 def draw_top():
    for line in range(1,size+1):
       print("|",end="")
-   
-      for space in range(-2*line+(2*size)):
-         print(" ",end="")
-      
+      spaces()      
       print("<>",end="")
    
       for dot in range(4*line-4):
@@ -111,13 +108,16 @@ def draw_bottom():
          
       print("<>",end="")
       
-      for space in range(2*line-2):
-         print(" ",end="")
-      
+      spaces()      
       print("|",end="")   
          
       print()   
          
+         
+         
+def spaces():
+   for space in range(-2*line+(2*size)):
+         print(" ",end="")
 
 
 
