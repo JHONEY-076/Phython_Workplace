@@ -6,10 +6,6 @@ def print_design():
 
 
 
-<<<<<<< HEAD
-=======
 print_design()
->>>>>>> f7ea98dec7646309d572f5496a45aa876354e05b
 
 
-print(str(9 + 9) + "9 + 9" + str(9) + str(9))
