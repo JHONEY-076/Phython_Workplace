@@ -21,7 +21,7 @@ def pattern(name):
 main()
 
 
-def if_else_mystery_2(a, b):
+dadef if_else_mystery_2(a, b):
     if a * 2 < b:
         a = a * 3
     elif a > b:
