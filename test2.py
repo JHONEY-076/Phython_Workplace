@@ -47,6 +47,7 @@ def pattern(name):
 main()
 
 
+<<<<<<< HEAD
 
 
 
@@ -54,3 +55,18 @@ main()
 
 
    
+=======
+dadef if_else_mystery_2(a, b):
+    if a * 2 < b:
+        a = a * 3
+    elif a > b:
+        b = b + 3
+    if b < a:
+        b += 1
+    else:
+        a -= 1
+    print(a, b)
+    
+    
+if_else_mystery_2(10, 2)    
+>>>>>>> ea93283ed0888ef4bb8534b937314619fe211d18
