@@ -11,41 +11,41 @@
 #       
 
 
-x=1
-y=2
-z=3
-
-
-if(x!=7 or y<3):
-   print("Original expression was True")
-   
-if(not(x!=7 or y<3)):
-   print("Negated expression was True")
-
-if(x==7 and y>=3):
-   print("Negated expression was True")
-   
-   
-if(5%2<0):
-   print("Original expression was True")
-   
-if(not(5%2<0)):
-   print("Negated expression was True")
-
-if(5%2>=0):
-   print("Negated expression was True")
-   
-   
-if(5*2<0 and 4>2-4):
-   print("Original expression was True")
-   
-if(not(5*2<0 and 4>2-4)):
-   print("Negated expression was True")
-
-if(5*2>=0 or 4<=2-4):
-   print("Negated expression was True")
-   
-   
-     
-         
+# x=1
+# y=2
+# z=3
+# 
+# 
+# if(x!=7 or y<3):
+#    print("Original expression was True")
+#    
+# if(not(x!=7 or y<3)):
+#    print("Negated expression was True")
+# 
+# if(x==7 and y>=3):
+#    print("Negated expression was True")
+#    
+#    
+# if(5%2<0):
+#    print("Original expression was True")
+#    
+# if(not(5%2<0)):
+#    print("Negated expression was True")
+# 
+# if(5%2>=0):
+#    print("Negated expression was True")
+#    
+#    
+# if(5*2<0 and 4>2-4):
+#    print("Original expression was True")
+#    
+# if(not(5*2<0 and 4>2-4)):
+#    print("Negated expression was True")
+# 
+# if(5*2>=0 or 4<=2-4):
+#    print("Negated expression was True")
+#    
+#    
+#      
+#          
       
