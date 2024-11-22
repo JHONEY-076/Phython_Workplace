@@ -11,6 +11,7 @@
 #       
 
 
+<<<<<<< HEAD
 # def is_prime_number(num):
 #    factor=0
 #    for i in range(1,num+1):
@@ -60,6 +61,8 @@ box_of_stars(8,5)
 
 
 
+=======
+>>>>>>> b6568df401b68b8fc7caffc69f43899e2e563b3b
 # x=1
 # y=2
 # z=3
@@ -95,6 +98,7 @@ box_of_stars(8,5)
 #    print("Negated expression was True")
 #    
 #    
+<<<<<<< HEAD
 #    
 #    
 # import random     
@@ -111,3 +115,8 @@ box_of_stars(8,5)
 #     
 #     
 # lucky_seven()    
+=======
+#      
+#          
+      
+>>>>>>> b6568df401b68b8fc7caffc69f43899e2e563b3b
