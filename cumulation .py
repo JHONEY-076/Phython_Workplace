@@ -95,18 +95,37 @@
 #    
 #    
 
+# 
+# text=input("Your secret message:?")
+# key=int(input("Your secret key?:"))
+# text=text.upper()
+# 
+# for letter in text:
+#    if letter>= "A" and letter<="Z": 
+#       shifted_num=ord(letter)+key
+#       if shifted_num>ord("Z"):
+#          shifted_num=shifted_num%ord('[')+ord('A')
+#       print(chr(shifted_num),end="")
+#    else:
+#       print(letter, end="")
+# 
+#
 
-text=input("Your secret message:?")
-key=int(input("Your secret key?:"))
-text=text.upper()
 
-for letter in text:
-   if letter>= "A" and letter<="Z": 
-      shifted_num=ord(letter)+key
-      if shifted_num>ord("Z"):
-         shifted_num=shifted_num%ord('[')+ord('A')
-      print(chr(shifted_num),end="")
-   else:
-      print(letter, end="")
 
-   
+# text=input("Your secret message:")
+# key=int(input("Your secret key:"))
+# 
+# text=text.upper()
+# 
+# for letter in text:
+#    if letter>="A"and letter<="Z":
+#       shifted_letter=ord(letter)+key
+#       if shifted_letter>ord("Z"):
+#          shifted_letter=shifted_letter%ord("[")+ord("A")
+#       if shifted_letter<ord("A"):
+#          shifted_letter=ord("Z")-ord("@")%shifted_letter      
+#       print(chr(shifted_letter),end="")    
+#    else:
+#       print(" ",end="")       
+#        
