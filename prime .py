@@ -11,6 +11,58 @@
 #       
 
 
+<<<<<<< HEAD
+# def is_prime_number(num):
+#    factor=0
+#    for i in range(1,num+1):
+#       if num%i==0:
+#          factor+=1
+#          
+#    return factor==2
+#    
+#    
+#    
+# print(is_prime_number(5))   
+#       
+# 
+# 
+# 
+
+
+def box_of_stars(width,height):
+   for i in range(width):
+      print("*",end="")
+   print()
+   
+   for i in range(height-2):
+      print("*",end="")
+      for j in range(width-2):
+         print(" ",end="")
+      print("*")
+   
+         
+   for i in range(width):
+      print("*",end="")
+      
+     
+
+
+
+
+box_of_stars(8,5)
+
+
+
+
+
+
+
+
+
+
+
+=======
+>>>>>>> b6568df401b68b8fc7caffc69f43899e2e563b3b
 # x=1
 # y=2
 # z=3
@@ -46,6 +98,25 @@
 #    print("Negated expression was True")
 #    
 #    
+<<<<<<< HEAD
+#    
+#    
+# import random     
+#          
+# def lucky_seven():
+#    for i in range(10):
+#       num = random.randint(1, 30)
+#       print(str(num) + " ", end='')
+#  
+#    if num == 7: # found lucky 7; can exit now
+#       return True
+#  
+#    return False # if we get here, there was no 7
+#     
+#     
+# lucky_seven()    
+=======
 #      
 #          
       
+>>>>>>> b6568df401b68b8fc7caffc69f43899e2e563b3b
