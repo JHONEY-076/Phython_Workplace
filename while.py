@@ -11,16 +11,49 @@
 
 
 
+# import random
+# 
+# def main():
+#   num1=random.randint(1,6)
+#   num2=random.randint(1,6)
+#   sum=num1+num2
+#   print(str(num1)+"+"+str(num2)+"="+str(sum))
+#   count=1
+#   
+#   while(sum!=7):
+#    num1=random.randint(1,6)
+#    num2=random.randint(1,6)
+#    sum=num1+num2
+#    print(str(num1)+"+"+str(num2)+"="+str(sum))
+#    count+=1
+#    
+#   print("You won after",count,"tries!")
+#   
+#   
+#   
+# main()
+# 
+# 
 
-import rand
+import random
 
-result=0
+def main():
+   i=random.randint(2,5)
+   
+   num=random.randint(1,10)
+   print(str(num),end="")
+   
+   for j in range(i):   
+     num=random.randint(1,10)
+     print("+",end="")
+     print(str(num),end="")
+   print("=",end="")
+           
+     
 
-while(result==7):
-   num1=rand.randint(1,6)
-   num2=rand.randint(1,6)
-   result= num1+num2
-   
-   print(num1
-   
-   
+
+
+
+
+
+main()
