@@ -109,30 +109,25 @@
 #    else:
 #       print(letter, end="")
 # 
-<<<<<<< HEAD
-#
 
 
-=======
-#    
-
-
-text=input("Your message? ")
-key=int(input("Encoding key? "))
-text=text.upper()
-
-for letter in text:
-   if letter>= "A" and letter<="Z": 
-      shifted_num=ord(letter)+key
-      if shifted_num>ord("Z"):
-         shifted_num=+ord('A')+shifted_num%ord('[')
-      elif shifted_num<ord("A"):
-         shifted_num=ord('Z') - shifted_num  %ord('@')    
-      print(chr(shifted_num),end="")
-      
-   else:
-      print(letter, end="")
->>>>>>> b6568df401b68b8fc7caffc69f43899e2e563b3b
+# 
+# text=input("Your message? ")
+# key=int(input("Encoding key? "))
+# text=text.upper()
+# 
+# for letter in text:
+#    if letter>= "A" and letter<="Z": 
+#       shifted_num=ord(letter)+key
+#       if shifted_num>ord("Z"):
+#          shifted_num=+ord('A')+shifted_num%ord('[')
+#       elif shifted_num<ord("A"):
+#          shifted_num=ord('Z') - shifted_num  %ord('@')    
+#       print(chr(shifted_num),end="")
+#       
+#    else:
+#       print(letter, end="")
+# 
 
 # text=input("Your secret message:")
 # key=int(input("Your secret key:"))
@@ -150,3 +145,24 @@ for letter in text:
 #    else:
 #       print(" ",end="")       
 #        
+
+
+
+
+
+def carbonated(coke, soda, pop):
+    print("say", soda, "not", pop, "or", coke)
+
+def main():
+    soda = "coke"
+    pop = "pepsi"
+    coke = "pop"
+    pepsi = "soda"
+    say = pop
+
+    carbonated(coke, soda, pop)
+    carbonated(pop, pepsi, pepsi)
+    carbonated("pop", pop, "koolaid")
+    carbonated(say, "say", pop)
+
+main()
