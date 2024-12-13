@@ -76,28 +76,28 @@
 
 
 
-message= input("Your secret message:")
-key= int(input("Your secret key:"))
+# message= input("Your secret message:")
+# key= int(input("Your secret key:"))
+# 
+# message=message.upper()
+# 
+# for i in range(len(message)):
+#    
+#    if message[i]>="A"and message[i]<="Z":
+#       print(chr(ord(message[i])+key),end="")   
+#    
+#       if message[i]>"Z":
+#          print(chr(ord(message[i]%ord("[")+ord("A"))))
+# 
+#    else:
+#       print(" ",end="")
+#       
+#    
+#    
 
-message=message.upper()
-
-for i in range(len(message)):
-   
-   if message[i]>="A"and message[i]<="Z":
-      print(chr(ord(message[i])+key),end="")   
-   
-      if message[i]>"Z":
-         print(chr(ord(message[i]%ord("[")+ord("A"))))
-
-   else:
-      print(" ",end="")
-      
-   
-   
-
-
-# text="abc xyz"
-# key=1
+# 
+# text=input("Your secret message:?")
+# key=int(input("Your secret key?:"))
 # text=text.upper()
 # 
 # for letter in text:
@@ -109,4 +109,60 @@ for i in range(len(message)):
 #    else:
 #       print(letter, end="")
 # 
-   
+
+
+# 
+# text=input("Your message? ")
+# key=int(input("Encoding key? "))
+# text=text.upper()
+# 
+# for letter in text:
+#    if letter>= "A" and letter<="Z": 
+#       shifted_num=ord(letter)+key
+#       if shifted_num>ord("Z"):
+#          shifted_num=+ord('A')+shifted_num%ord('[')
+#       elif shifted_num<ord("A"):
+#          shifted_num=ord('Z') - shifted_num  %ord('@')    
+#       print(chr(shifted_num),end="")
+#       
+#    else:
+#       print(letter, end="")
+# 
+
+# text=input("Your secret message:")
+# key=int(input("Your secret key:"))
+# 
+# text=text.upper()
+# 
+# for letter in text:
+#    if letter>="A"and letter<="Z":
+#       shifted_letter=ord(letter)+key
+#       if shifted_letter>ord("Z"):
+#          shifted_letter=shifted_letter%ord("[")+ord("A")
+#       if shifted_letter<ord("A"):
+#          shifted_letter=ord("Z")-ord("@")%shifted_letter      
+#       print(chr(shifted_letter),end="")    
+#    else:
+#       print(" ",end="")       
+#        
+
+
+
+
+
+def carbonated(coke, soda, pop):
+    print("say", soda, "not", pop, "or", coke)
+
+def main():
+    soda = "coke"
+    pop = "pepsi"
+    coke = "pop"
+    pepsi = "soda"
+    say = pop
+
+    carbonated(coke, soda, pop)
+    carbonated(pop, pepsi, pepsi)
+    carbonated("pop", pop, "koolaid")
+    carbonated(say, "say", pop)
+
+main()

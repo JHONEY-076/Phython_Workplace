@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+print(3 // 14 // 7 / (1.0 * 2)+10 // 6 )
+=======
 # def main():
 #    full_name = input("Enter your name: ")
 #    full_pattern(full_name)
@@ -70,3 +73,4 @@ dadef if_else_mystery_2(a, b):
     
 if_else_mystery_2(10, 2)    
 >>>>>>> ea93283ed0888ef4bb8534b937314619fe211d18
+>>>>>>> 518227eaaa92e1a074324f5f88704a167423e347

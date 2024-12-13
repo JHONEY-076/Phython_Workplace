@@ -1,4 +1,5 @@
 def show_twos(n):
+<<<<<<< HEAD
     negative = False 
     if n < 0:
         negative = True
@@ -41,3 +42,21 @@ show_twos(18)   # 18 = 2 * 3 * 3
 show_twos(-68)  # -68 = 2 * 2 * 17 * -1
 show_twos(120)  # 120 = 2 * 2 * 2 * 3 * 5
 show_twos(-10)  # -10 = 2 * -5
+=======
+    original = n
+    factors = ""
+
+    while n % 2 == 0:
+        factors += "2 * "
+        n //= 2
+
+    factors += str(n)
+    print(f"{original} = {factors}")
+
+show_twos(7)
+show_twos(18)
+show_twos(-68)
+show_twos(120)
+show_twos(-32)
+
+>>>>>>> 4860713101cfbd6df47b239fb94db4119143917d
